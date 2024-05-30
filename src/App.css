@@ -36,3 +36,54 @@
     transform: rotate(360deg);
   }
 }
+
+form{
+  width: 1170px;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+  height: 50px;
+}
+form input{
+  flex-basis: 80%;
+  height: 50px;
+  font-size: 22px;
+}
+form button{
+  flex-basis: 20%;
+  height: 55px;
+}
+.outerDiv{
+  width: 1170px;
+  margin: auto;
+}
+.outerDiv ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  margin-top: 50px;
+}
+.outerDiv ul li{
+  padding: 10px;
+  background-color: black;
+  font-size: 25px;
+  margin-bottom: 20px;
+  position: relative;
+  color: white;
+  text-align: left;
+}
+.outerDiv ul li span{
+  right: 20px;
+  position: absolute;
+  cursor: pointer;
+}
+.completetodo{
+  text-decoration: line-through;
+  color: red !important;
+  background-color: yellow !important;
+
+}
+
+
+
+
